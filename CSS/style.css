@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Part Start */
+
+.menu{
+    box-shadow: 0 0 10px #8373c5;
+}
+
+
+.menu ul li a{
+    padding: 0 20px !important;
+}
+
+.menu img {
+    width: 150px;
+}
+
+.btnn{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 18px 30px;
+    color: #5E3BEE;
+    background-color: transparent;
+    border: 2px solid #5E3BEE;
+    border-radius: 5px;
+}
+
+/* Nav Part End */
+
+
+
+/* Hero Part Start */
+
+.hero_img{
+    width: 100%;
+    margin-top: -100px;
+
+}
+
+.hero_text h4{
+    font-size: 21px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: #282938;
+    margin-bottom: 21px;
+
+}
+
+.hero_text h1{
+    font-size: 54px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #282938;
+    margin-bottom: 21px;
+    
+}
+
+.hero_text h1 span{
+    color: #5E3BEE;
+}
+
+.hero_text p{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #1C1E53;
+    margin-bottom: 32px;
+    max-width: 500px;
+    
+}
+
+.hero_text button{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 18px 30px;
+    color:#ffffff ;
+    background-color: #5E3BEE;
+    border: 2px solid #5E3BEE;
+    border-radius: 5px;
+}
+
+#hero{
+    padding: 175px 0;
+    background-color: #F5FCFF;
+}
+
+/* Hero Part End */
+
+
+
+/* Skill Part Start */
+
+#skill{
+    padding: 140px 0;
+}
+
+.skill_top{
+    padding-bottom: 100px;
+}
+
+.skill_top h5{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+    color: #282938;
+
+}
+
+.skill_top h3{
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 700;
+    color: #282938;
+
+}
+
+.skill_item{
+    background-color: #F5FCFF;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.skill_item:hover{
+    border-bottom: 2px solid #5E3BEE;
+
+}
+
+.skill_item h4{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    color: #282938;
+    margin: 20px 0;
+
+}
+
+.skill_item p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #282938;
+
+}
+
+/* Skill Part End */
+
+
+/* About Part Start */
+
+#about{
+    padding: 100px 0;
+}
+
+.about_img img{
+    width: 100%;
+} 
+
+.about_text h6{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+    color: #282938;
+    margin-bottom: 10px;
+
+}
+
+.about_text h3{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    color: #282938;
+    margin-bottom: 20px;
+
+}
+
+.about_text p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #282938;
+
+}
+
+/* About Part End */
+
+
+/* Portfolio Part Start */
+
+#portfolio{
+    padding: 100px 0;
+}
+
+.portfolio_left{
+    margin-bottom: 100px;
+}
+
+.portfolio_left h5{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #282938;
+
+}
+
+.portfolio_left h3{
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 700;
+    color: #282938;
+
+}
+
+.port_btn{
+    margin-bottom: 100PX;
+}
+
+.port_btn button{
+    background-color: #E62872;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.port_btn button img{
+    width: 30px;
+    margin-right: 10px;
+
+}
+
+.port_item {
+    box-shadow: 0 0 10px gray;
+}
+
+
+.port_item img{
+    width: 100%;
+}
+
+.item_text{
+    padding: 20px;
+}
+
+.item_text h5{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #282938; 
+}
+
+.item_text p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+}
+
+.item_text a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #282938;
+    border-bottom: 2px solid #5E3BEE;
+}
+
+.item_text a img {
+    width: 13px;
+}
+
+/* Portfolio Part End */
+
+
+
+/* Testimonial Part Start */
+
+#testimonial{
+    padding:100px 0 ;
+    background-color: #F5FCFF;
+}
+
+.test_top{
+    margin-bottom: 100px;
+}
+
+.test_top h5{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+    color: #282938;
+
+}
+
+.test_top h3{
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 700;
+    color: #282938;
+
+}
+
+.test_item{
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #5E3BEE;
+}
+
+.test_item img{
+    width:120px;
+
+}
+
+.test_item p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #282938;
+    margin-top: 20px;
+
+}
+
+.client{
+    display: flex;
+    align-items: center;
+}
+
+.client img{
+    width: 80px;
+    height: 80px;
+}
+
+.client_name{
+    margin-left: 30px;
+}
+
+.client_name h4{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    color: #282938;
+    margin: 20px 0;
+
+}
+
+.client_name h5{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #282938;
+    margin: 20px 0;
+
+}
+
+ /* Testimonial Part End */
+
+
+
+
+ /* Contact Part Start */
+
+ #contact{
+    padding: 100px 0;
+ }
+
+ .contact_top{
+    text-align: center;
+    margin-bottom: 60px;
+
+ }
+
+ .contact_top h5{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom:5px;
+ }
+
+ .contact_top h3{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 46px;
+    
+ }
+
+
+ .contact_name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+ }
+
+ .contact_name input{
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border: 2px solid #5E3BEE;
+    border-radius: 8px;
+ }
+
+ .contact_num{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+ }
+
+ .contact_num input{
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border: 2px solid #5E3BEE;
+    border-radius: 8px;
+ }
+
+ form label{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    color: #282938;
+ }
+
+ form select{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 2px solid #5E3BEE;
+    border-radius: 8px;
+    margin-bottom: 21px;
+
+
+ }
+
+ form textarea{
+    width: 100%;
+    height: 150px;
+    outline: none;
+    padding: 15px;
+    border: 2px solid #5E3BEE;
+    border-radius: 8px;
+    margin-bottom: 21px;
+ }
+
+
+ checkbox_div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 21px;
+ }
+
+
+ .checkbox_label{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    color: #282938;
+ }
+ 
+
+ .submita_div{
+    display: flex;
+    justify-content: center;
+ }
+
+ .submita_div input{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 15px 40px;
+    color: #ffffff;
+    background-color: #5E3BEE;
+    border: none;
+    border-radius: 8px;
+ }
+
+ /* Contact Part End */
+
+
+ /* Footer Part Start */
+
+ #footer{
+    padding: 100px 0;
+    background-color: #F5FCFF;
+ }
+
+
+.menuu{
+    margin:20px 0;
+    
+}
+
+.menuu ul li a{
+    padding: 0 20px !important;
+}
+
+.menuu img {
+    width: 150px;
+}
+
+.incon{
+    display: flex;
+    gap: 20px;
+}
+
+.footer_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #282938;
+    padding-top: 20px;
+}
+
+.footer_part h6{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+}
+
+.footer_part ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.footer_part ul li{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    color: #282938;
+}
+
+/* Footer Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
